@@ -1,0 +1,19 @@
+{
+    "name": "cforrence/pdo-wrapper",
+    "description": "Provides an easy-to-follow wrapper for the PHP PDO library",
+    "type": "library",
+    "keywords": ["database"],
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Chris Forrence",
+            "email": "chrisforrence@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Forrence\\": "src"
+        }
+    }
+}
